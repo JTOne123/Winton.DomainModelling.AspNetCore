@@ -37,7 +37,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="result"/> is a <see cref="Failure{TData}"/>.
         ///     It is responsible for mapping the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
@@ -77,7 +77,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="resultTask"/> is a <see cref="Failure{TData}"/>.
         ///     It is responsible for mapping the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
@@ -123,7 +123,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="result"/> is a <see cref="Failure{TData}"/>.
         ///     It is responsible for mapping the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
@@ -171,7 +171,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="resultTask"/> is a <see cref="Failure{TData}"/>.
         ///     It is responsible for mapping the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
@@ -227,7 +227,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="result"/> is a <see cref="Failure{TData}"/>.
         ///     It is invoked to map the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
@@ -286,7 +286,7 @@ namespace Winton.DomainModelling.AspNetCore
         /// <param name="onError">
         ///     The function that is invoked if this <paramref name="resultTask"/> is a <see cref="Failure{TData}"/>.
         ///     It is invoked to map the <see cref="Error"/> to <see cref="ProblemDetails"/>.
-        ///     If this function returns <code>null</code> then the default error mapping conventions are used.
+        ///     If this function returns <c>null</c> then the default error mapping conventions are used.
         ///     This therefore provides a way to customize the error mapping from <see cref="Error"/> to <see cref="ProblemDetails"/>.
         /// </param>
         /// <returns>
